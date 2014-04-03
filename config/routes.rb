@@ -1,4 +1,8 @@
 Topgear::Application.routes.draw do
+  resources :laps
+
+  root :to => redirect('/laps')
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -47,3 +47,5 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'rails-backbone' # use backbone for a SPA
