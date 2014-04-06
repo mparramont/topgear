@@ -69,6 +69,6 @@ class LapsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def lap_params
-      params.require(:lap).permit(:brand, :model, :time)
+      params.require(:lap).permit(:brand, :model, :time, :photo)
     end
 end

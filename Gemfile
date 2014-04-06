@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-ruby "2.0.0" # specify ruby version for Heroku
+# specify ruby version for Heroku
+ruby "2.0.0"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
@@ -54,3 +55,5 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'rails-backbone' # use backbone for a SPA
+gem 'paperclip' # image uploads
+gem 'aws-sdk' #upload to s3
